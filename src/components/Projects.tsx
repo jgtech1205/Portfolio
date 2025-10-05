@@ -5,7 +5,7 @@ export default function Projects() {
     {
       title: "Movie Studio",
       description: "A comprehensive movie streaming and discovery platform powered by TMDB API. Features include trending movies, top-rated films, upcoming releases, and detailed movie information with a modern, responsive design.",
-      image: "/api/placeholder/600/400",
+      image: "/moviestudio.png",
       technologies: ["React", "Next.js", "TMDB API", "Tailwind CSS", "Responsive Design"],
       liveUrl: "https://movie-studio-vosl.vercel.app/",
       githubUrl: "https://github.com/jgtech1205/Movie_Studio",
@@ -14,7 +14,7 @@ export default function Projects() {
     {
       title: "Tulos E-commerce",
       description: "A full-stack fashion e-commerce platform featuring men's and women's clothing categories, shopping cart functionality, product filtering, and a sleek modern interface optimized for conversions.",
-      image: "/api/placeholder/600/400",
+      image: "/images/Tulosecom.png",
       technologies: ["React", "E-commerce", "Shopping Cart", "Product Management", "Responsive Design"],
       liveUrl: "https://tulos-ecom-website.vercel.app/",
       githubUrl: "https://github.com/yourusername/tulos-ecommerce",
@@ -23,7 +23,7 @@ export default function Projects() {
     {
       title: "AI Outliner",
       description: "An intelligent content structuring and organization tool powered by AI. Helps users create well-organized outlines and structure their content effectively with automated suggestions and optimization.",
-      image: "/api/placeholder/600/400",
+      image: "/images/aioutliner.png",
       technologies: ["AI Integration", "React", "Content Management", "Natural Language Processing"],
       liveUrl: "https://ai-outliner.vercel.app/",
       githubUrl: "https://github.com/jgtech1205/AIOutliner",
@@ -52,13 +52,14 @@ export default function Projects() {
                     key={index}
                     className="bg-gray-50 dark:bg-gray-700 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
                   >
-                    <div className="h-64 bg-gradient-to-br from-blue-100 to-indigo-100 dark:from-gray-600 dark:to-gray-700 flex items-center justify-center">
-                      <div className="text-gray-500 dark:text-gray-400 text-center">
-                        <svg className="w-16 h-16 mx-auto mb-2" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M4 4h16v2H4V4zm0 4h16v2H4V8zm0 4h16v2H4v-2zm0 4h16v2H4v-2z" />
-                        </svg>
-                        <p className="font-medium">{project.title}</p>
-                      </div>
+                    <div className="h-64 relative overflow-hidden">
+                      <Image
+                        src={project.image}
+                        alt={`${project.title} screenshot`}
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                      />
                     </div>
                     <div className="p-6">
                       <h4 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
