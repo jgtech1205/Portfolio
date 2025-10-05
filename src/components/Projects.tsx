@@ -53,12 +53,10 @@ export default function Projects() {
                     className="bg-gray-50 dark:bg-gray-700 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
                   >
                     <div className="h-64 relative overflow-hidden">
-                      <Image
+                      <img
                         src={project.image}
                         alt={`${project.title} screenshot`}
-                        fill
-                        className="object-cover"
-                        sizes="(max-width: 768px) 100vw, 50vw"
+                        className="w-full h-full object-cover"
                       />
                     </div>
                     <div className="p-6">
