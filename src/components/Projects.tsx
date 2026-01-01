@@ -29,6 +29,33 @@ export default function Projects() {
       githubUrl: "https://github.com/jgtech1205/AIOutliner",
       featured: true,
     },
+    {
+      title: "AuditHive",
+      description: "A comprehensive IT training platform offering ISO certification courses in information security, privacy, and AI governance. Features include self-paced learning, globally recognized certifications, and all-inclusive course access with exam fees included.",
+      image: "/images/audithive.png",
+      technologies: ["React", "Next.js", "E-commerce", "Course Management", "Responsive Design"],
+      liveUrl: "https://audithive.auditpartners.com/",
+      githubUrl: "",
+      featured: true,
+    },
+    {
+      title: "ChefEnPlace",
+      description: "A modern web application for chefs and culinary professionals. Features include recipe management, menu planning, and culinary resource organization with an intuitive, user-friendly interface.",
+      image: "/images/chefenplace.png",
+      technologies: ["React", "Next.js", "Web Application", "Responsive Design"],
+      liveUrl: "https://www.chefenplaceapp.com/",
+      githubUrl: "",
+      featured: true,
+    },
+    {
+      title: "Onsite Rail Solutions",
+      description: "A SaaS platform for railcar repair facilities to manage work orders, schedule technicians, track service requests, and handle facility operations digitally. Features include calendar scheduling, vehicle/car file management, user roles, and Stripe payment integration.",
+      image: "/images/onsiterailsolutions.png",
+      technologies: ["SaaS", "React", "Next.js", "Stripe Integration", "Calendar Scheduling", "User Management"],
+      liveUrl: "https://www.onsiterailsolutions.com/",
+      githubUrl: "",
+      featured: true,
+    },
   ];
 
   return (
