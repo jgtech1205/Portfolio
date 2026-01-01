@@ -32,7 +32,7 @@ export default function Projects() {
     {
       title: "AuditHive",
       description: "A comprehensive IT training platform offering ISO certification courses in information security, privacy, and AI governance. Features include self-paced learning, globally recognized certifications, and all-inclusive course access with exam fees included.",
-      image: "/images/audithive.png",
+      image: "/images/Audithive.png",
       technologies: ["React", "Next.js", "E-commerce", "Course Management", "Responsive Design"],
       liveUrl: "https://audithive.auditpartners.com/",
       githubUrl: "",
@@ -50,7 +50,7 @@ export default function Projects() {
     {
       title: "Onsite Rail Solutions",
       description: "A SaaS platform for railcar repair facilities to manage work orders, schedule technicians, track service requests, and handle facility operations digitally. Features include calendar scheduling, vehicle/car file management, user roles, and Stripe payment integration.",
-      image: "/images/onsiterailsolutions.png",
+      image: "/images/onsiterails.png",
       technologies: ["SaaS", "React", "Next.js", "Stripe Integration", "Calendar Scheduling", "User Management"],
       liveUrl: "https://www.onsiterailsolutions.com/",
       githubUrl: "",
